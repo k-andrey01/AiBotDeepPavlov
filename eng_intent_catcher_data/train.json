@@ -1,0 +1,19 @@
+{
+"start": [
+"((start)|(start)|(reset)|(reset)|(restart)) ((work)|(bot)){0,1}",
+"(new)|(exit)|(new)|(back)|(cancel)|(first)|(start)|(restart)|(restart)|(go back)|(again)|(other)|(again)|(again)|(output)",
+"((other)|(other)|(new)) ((function)|(command))"
+],
+  "answering": [
+"((answer)|(give an answer)|(answer)|(give information)|(answer)|(answers)|(information)) ((to the question)|(to questions)){0,1} ((about the club)|(about Zenit)|(about the team)){0,1}",
+    "((find out)|(get) (information)|(data)|(new)) ((about)|(about)) ((club)|(team)|(Zenit)|(club)|(team)|(Zenith)){0,1}",
+"((say)|(name)|(needed)|(needed)) ((answer)|(answers)) ((to the question)|(to questions)){0,1}",
+"(question-answer)|(question)"
+],
+"links": [
+"((social network)|(resources)|(tiktok)|(vk)|(vkontakte)|(instagram)|(telegram)|(youtube)|(website)|(social networks)|(social networks)|(links)|(videos)|(news)|(group)) ((club)|(teams)|(Zenit)){0,1}",
+"(more) ((information)|(data)){0,1} ((about the club)|(about Zenit)|(about the team)){0,1}",
+    "((view)|(find out)|(find)) ((more)|(more)){0,1} ((about the club)|(about Zenit)|(about the team))",
+"((links)|(link)) ((on social networks)|(on social networks)|(on vk)|(on instagram)|(on telegram)|(to the website)|(on tiktok)) ((club)|(Zenit)|(commands)){0,1}"
+  ]
+}
